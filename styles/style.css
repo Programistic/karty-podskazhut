@@ -2,6 +2,7 @@
   --text-color: #312a4e;
   --bg-color: #f3efec;
   --accent-color: #ffab6b;
+  --main-font: 'Raleway';
 }
 
 .theme_dark {
@@ -63,7 +64,7 @@
 .header__theme-button {
   margin: 0;
   padding: 0;
-  font: 400 18px/1.5 'Raleway', sans-serif;
+  font: 400 18px/1.5 var(--main-font), sans-serif;
   color: currentColor;
   border: none;
   background-color: transparent;
@@ -115,7 +116,7 @@
 }
 
 .content__text-block {
-  font: 400 18px/1.2 'Raleway', sans-serif;
+  font: 400 18px/1.2 var(--main-font), sans-serif;
 }
 
 .content__paragraph {
@@ -131,7 +132,7 @@
   display: inline-block;
   margin: 0 5px 0 -5px;
   padding: 0 4px;
-  font: 700 30px/1 'Raleway', sans-serif;
+  font: 700 30px/1 var(--main-font), sans-serif;
   background-color: var(--accent-color);
 }
 
@@ -175,7 +176,7 @@
 
 .content__picture-caption {
   margin: 16px 0 16px;
-  font: 400 18px/1.5 'Raleway', sans-serif;
+  font: 400 18px/1.5 var(--main-font), sans-serif;
   text-align: center;
 }
 
@@ -183,7 +184,7 @@
   margin: 0 auto 1.5em;
   padding: 0;
   width: 75%;
-  font: italic 400 18px/1.95 'Raleway', sans-serif;
+  font: italic 400 18px/1.95 var(--main-font), sans-serif;
 }
 
 .content__card {
@@ -206,7 +207,7 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  font: 400 18px/1.5 'Raleway', sans-serif;
+  font: 400 18px/1.5 var(--main-font), sans-serif;
 }
 
 .colored-text {
@@ -270,7 +271,7 @@
 .footer__copyright {
   margin: -3px;
   padding: 0;
-  font: 400 18px/1.5 'Raleway', sans-serif;
+  font: 400 18px/1.5 var(--main-font), sans-serif;
   color: currentColor;
   text-align: center;
 }
