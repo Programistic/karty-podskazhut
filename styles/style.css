@@ -83,6 +83,7 @@
   cursor: pointer;
   text-decoration: underline;
   opacity: .7;
+  outline: none;
 }
 
 .header__theme-button_is-active {
@@ -143,6 +144,8 @@
 .content__link {
   color: currentColor;
   transition: opacity .15s ease;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
 }
 
 .content__link:focus {
@@ -151,12 +154,13 @@
 
 .content__link:focus-visible {
   outline: 1px solid currentColor;
+  outline-offset: 2px;
 }
 
 .content__link:hover {
   cursor: pointer;
   opacity: .7;
-  text-decoration: underline;
+  outline: none;
 }
 
 .content__figure {
