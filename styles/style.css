@@ -252,8 +252,9 @@
 .content__list-item::before {
   position: absolute;
   content: '';
-  top: 4px;
+  top: 50%;
   left: -26px;
+  margin: -7.5px 0 0;
   width: 15px;
   height: 15px;
   background-image: url(../images/marker-light.svg);
