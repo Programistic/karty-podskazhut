@@ -111,7 +111,7 @@
 }
 
 .content__title {
-  margin: 7.2% 0 2.6%;
+  margin: 7.1% 0 2.6%;
   padding: 0;
 }
 
@@ -130,7 +130,7 @@
 
 .content__text-block_type_first-lettered > .content__paragraph:first-child::first-letter {
   display: inline-block;
-  margin: 0 5px 0 -6px;
+  margin: 0 6px 0 -6px;
   padding: 0 4px;
   font: 700 30px/1 var(--main-font), sans-serif;
   background-color: var(--accent-color);
@@ -187,23 +187,25 @@
   margin: 1.6em auto 1.6em;
   padding: 0;
   width: 75%;
-  font: italic 400 18px/1.95 var(--main-font), sans-serif;
+  font: italic 400 18px/2 var(--main-font), sans-serif;
 }
 
 .content__card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 7.1% 0 0;
+  margin: 7% 0 -2px;
   width: 100%;
   aspect-ratio: 4 / 3;
   border: 1px solid currentColor;
+  box-sizing: border-box;
 }
 
 .content__card-title {
-  margin: 5px 0 0;
+  margin: 4px 0 0;
   padding: 0;
   font-size: 60px;
+  line-height: .8;
 }
 
 .content__card-subtitle {
@@ -221,7 +223,7 @@
 .colored-text::after {
   position: absolute;
   content: '';
-  bottom: 7px;
+  bottom: 5px;
   left: -1%;
   width: 103%;
   height: .25em;
@@ -241,7 +243,7 @@
 
 .content__list-item {
   position: relative;
-  margin: 0 0 9px;
+  margin: 0 0 8px;
   padding: 0;
 }
 
