@@ -25,8 +25,8 @@
   min-width: 360px;
   margin: 0 auto;
   padding: 0;
-  color: var(--text-color);
-  background-color: var(--bg-color);
+  color: var(--text-color, #312a4e);
+  background-color: var(--bg-color, #f3efec);
   box-sizing: border-box;
 }
 
@@ -99,7 +99,7 @@
   bottom: 6px;
   width: 113%;
   height: 5px;
-  background-color: var(--accent-color);
+  background-color: var(--accent-color, #ffab6b);
   z-index: -1;
 }
 
@@ -140,7 +140,7 @@
   margin: 0 6px 0 -6px;
   padding: 0 4px;
   font: 700 30px/1 var(--main-font), 'Arial', sans-serif;
-  background-color: var(--accent-color);
+  background-color: var(--accent-color, #ffab6b);
 }
 
 .theme_dark .content__text-block_type_first-lettered > .content__paragraph:first-child::first-letter {
@@ -234,7 +234,7 @@
   left: -1%;
   width: 103%;
   height: .25em;
-  background-color: var(--accent-color);
+  background-color: var(--accent-color, #ffab6b);
   z-index: -1;
 }
 
